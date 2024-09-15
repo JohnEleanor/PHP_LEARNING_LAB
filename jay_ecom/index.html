@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>E-commerce</title>
+        <style>
+            /* การตั้งค่า CSS เพื่อปรับปรุงการแสดงผล */
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f0f0f0;
+                margin: 0;
+                padding: 20px;
+                display: flex;
+                flex-direction: column; /* จัดวางให้เป็น column */
+                align-items: center;
+                min-height: 100vh;
+            }
+
+            .container {
+                display: flex;
+                background-color: #fff;
+                padding: 20px;
+                border-radius: 10px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+             
+             
+                justify-content: center;
+            }
+
+            h1 {
+                color: #333;
+            }
+
+            ul {
+                justify-content: center;
+                align-items: center;
+                list-style: none;
+                padding: 0;
+                display: flex;
+            }
+
+            li {
+                
+                margin-left: 20px;
+            }
+
+            a {
+                text-decoration: none;
+                color: #007bff;
+                font-weight: bold;
+                transition: color 0.3s ease;
+            }
+
+            a:hover {
+                color: #0056b3;
+            }
+
+            h2 {
+                text-align: center;
+                color: #333;
+            }
+
+            .table-container {
+                display: flex;
+                justify-content: center;
+                margin-top: 20px;
+            }
+
+            table {
+                border-collapse: collapse;
+                width: 80%;
+                margin: 0 auto;
+                background-color: #fff;
+                border-radius: 10px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                overflow: hidden;
+            }
+
+            th, td {
+                padding: 10px;
+                text-align: left;
+                border-bottom: 1px solid #ddd;
+            }
+
+            th {
+                background-color: #007bff;
+                color: white;
+            }
+
+            tr:nth-child(even) {
+                background-color: #f9f9f9;
+            }
+
+            tr:hover {
+                background-color: #f1f1f1;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- สร้าง Layout  -->
+        <div class="container">
+            <div class="navbar">
+                <h1>E-Commerce System</h1>
+            </div>
+            <ul>
+                <li><a href="view_products.php">View Products</a></li>
+                <li><a href="view_categories.php">View Categories</a></li>
+                <li><a href="view_customer.php">View Customers</a></li>
+                <li><a href="view_orders.php">View Orders</a></li>
+                <li><a href="view_order_items.php">View Order Items</a></li>
+                <li><a href="view_all_order.php">View All Orders</a></li>
+            </ul>
+        </div>
+    </body>
+</html>

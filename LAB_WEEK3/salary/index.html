@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- สร้าง form เพื่อส่งข้อมูลไปยัง salary.php เเบบ POST -->
+    <form action="salary.php" method="post">
+        <label for="name">ชื่อ</label>
+        <input type="text" name="name">
+        <br>
+        <label for="hour">จำนวนชั่วโมง</label>
+        <input type="number" name="hour" min="0" >
+        <input type="submit" value="ส่ง">
+    </form>
+</body>
+</html>

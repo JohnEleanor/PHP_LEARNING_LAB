@@ -1,0 +1,24 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: #f2f2f2;
+}
+td {
+    height: 100px;
+}
+td:hover {
+    background-color: #e0e0e0e0;
+}
+.prev-month , next-month {
+    color: #a9a9a9a9;
+}
+.current-date {
+    background-color: #ffeb3b;
+}
